@@ -1,0 +1,4 @@
+Tests\JSONPlaceholder.class
+Tests\MockAPI_Tests.class
+Tests\QACart_Tests.class
+Tests\BaseTest.class

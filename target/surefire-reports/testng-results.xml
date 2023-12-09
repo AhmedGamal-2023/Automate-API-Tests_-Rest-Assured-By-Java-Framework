@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-15T16:58:36 EET" name="Surefire suite" finished-at="2023-11-15T16:58:45 EET" duration-ms="9486">
+    <groups>
+    </groups>
+    <test started-at="2023-11-15T16:58:36 EET" name="Surefire test" finished-at="2023-11-15T16:58:45 EET" duration-ms="9486">
+      <class name="Tests.MockAPI_Tests">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:36 EET" name="Setup" finished-at="2023-11-15T16:58:36 EET" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="QueryParams()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:36 EET" name="QueryParams" finished-at="2023-11-15T16:58:38 EET" duration-ms="1698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QueryParams -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:38 EET" name="Setup" finished-at="2023-11-15T16:58:38 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Test6_Headers()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:38 EET" name="Test6_Headers" finished-at="2023-11-15T16:58:39 EET" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6_Headers -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:39 EET" name="Setup" finished-at="2023-11-15T16:58:39 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidateTest1_equalTo_hasItem_hasItems_not()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:39 EET" name="ValidateTest1_equalTo_hasItem_hasItems_not" finished-at="2023-11-15T16:58:40 EET" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTest1_equalTo_hasItem_hasItems_not -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:40 EET" name="Setup" finished-at="2023-11-15T16:58:40 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="test2_contains()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:40 EET" name="test2_contains" finished-at="2023-11-15T16:58:40 EET" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_contains -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:40 EET" name="Setup" finished-at="2023-11-15T16:58:40 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="test3_empty_hasSize_everyItemStartsWith_hasKey()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:40 EET" name="test3_empty_hasSize_everyItemStartsWith_hasKey" finished-at="2023-11-15T16:58:41 EET" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3_empty_hasSize_everyItemStartsWith_hasKey -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:41 EET" name="Setup" finished-at="2023-11-15T16:58:41 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="test4_ExtractResponse()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:41 EET" name="test4_ExtractResponse" finished-at="2023-11-15T16:58:42 EET" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4_ExtractResponse -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:42 EET" name="Setup" finished-at="2023-11-15T16:58:42 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="test5_Logging()[pri:0, instance:Tests.MockAPI_Tests@66f57048]" started-at="2023-11-15T16:58:42 EET" name="test5_Logging" finished-at="2023-11-15T16:58:43 EET" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5_Logging -->
+      </class> <!-- Tests.MockAPI_Tests -->
+      <class name="Tests.QACart_Tests">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.QACart_Tests@550dbc7a]" started-at="2023-11-15T16:58:43 EET" name="Setup" finished-at="2023-11-15T16:58:43 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidateAddListOfHeaders()[pri:0, instance:Tests.QACart_Tests@550dbc7a]" started-at="2023-11-15T16:58:43 EET" name="ValidateAddListOfHeaders" finished-at="2023-11-15T16:58:43 EET" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddListOfHeaders -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.QACart_Tests@550dbc7a]" started-at="2023-11-15T16:58:43 EET" name="Setup" finished-at="2023-11-15T16:58:43 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidateHeader1()[pri:0, instance:Tests.QACart_Tests@550dbc7a]" started-at="2023-11-15T16:58:43 EET" name="ValidateHeader1" finished-at="2023-11-15T16:58:43 EET" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHeader1 -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.QACart_Tests@550dbc7a]" started-at="2023-11-15T16:58:43 EET" name="Setup" finished-at="2023-11-15T16:58:43 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidateQueryParams()[pri:0, instance:Tests.QACart_Tests@550dbc7a]" started-at="2023-11-15T16:58:43 EET" name="ValidateQueryParams" finished-at="2023-11-15T16:58:44 EET" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateQueryParams -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.QACart_Tests@550dbc7a]" started-at="2023-11-15T16:58:44 EET" name="Setup" finished-at="2023-11-15T16:58:44 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="requestBody()[pri:0, instance:Tests.QACart_Tests@550dbc7a]" started-at="2023-11-15T16:58:44 EET" name="requestBody" finished-at="2023-11-15T16:58:44 EET" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestBody -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Tests.QACart_Tests@550dbc7a]" started-at="2023-11-15T16:58:44 EET" name="Setup" finished-at="2023-11-15T16:58:44 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="validateExtractTokenAuthorization()[pri:0, instance:Tests.QACart_Tests@550dbc7a]" started-at="2023-11-15T16:58:44 EET" name="validateExtractTokenAuthorization" finished-at="2023-11-15T16:58:45 EET" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateExtractTokenAuthorization -->
+      </class> <!-- Tests.QACart_Tests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

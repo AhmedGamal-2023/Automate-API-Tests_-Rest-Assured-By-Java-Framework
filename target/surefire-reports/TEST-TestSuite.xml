@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.255" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Ahmed_farghaly\IdeaProjects\VodafoneAssessment_Api Task\target\test-classes;C:\Users\Ahmed_farghaly\IdeaProjects\VodafoneAssessment_Api Task\target\classes;C:\Users\Ahmed_farghaly\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Ahmed_farghaly\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-java\4.14.1\selenium-java-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-api\4.14.1\selenium-api-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.14.1\selenium-chrome-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.14.1\selenium-chromium-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-json\4.14.1\selenium-json-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.14.1\selenium-manager-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.14.1\selenium-devtools-v116-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.14.1\selenium-devtools-v117-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.14.1\selenium-devtools-v118-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.14.1\selenium-devtools-v85-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.14.1\selenium-edge-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.14.1\selenium-firefox-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-http\4.14.1\selenium-http-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.14.1\selenium-ie-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.14.1\selenium-remote-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Ahmed_farghaly\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-os\4.14.1\selenium-os-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.14.1\selenium-safari-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-support\4.14.1\selenium-support-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.23.0\allure-cucumber7-jvm-2.23.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\Ahmed_farghaly\AppData\Local\Temp\surefire178723422495915176\surefirebooter9842292304440296767.jar C:\Users\Ahmed_farghaly\AppData\Local\Temp\surefire178723422495915176 2023-11-15T16-58-34_219-jvmRun1 surefire13742580354405656125tmp surefire_08250167989919377264tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Ahmed_farghaly\IdeaProjects\VodafoneAssessment_Api Task\target\test-classes;C:\Users\Ahmed_farghaly\IdeaProjects\VodafoneAssessment_Api Task\target\classes;C:\Users\Ahmed_farghaly\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Ahmed_farghaly\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-java\4.14.1\selenium-java-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-api\4.14.1\selenium-api-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.14.1\selenium-chrome-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.14.1\selenium-chromium-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-json\4.14.1\selenium-json-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.14.1\selenium-manager-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.14.1\selenium-devtools-v116-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.14.1\selenium-devtools-v117-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.14.1\selenium-devtools-v118-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.14.1\selenium-devtools-v85-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.14.1\selenium-edge-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.14.1\selenium-firefox-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-http\4.14.1\selenium-http-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.14.1\selenium-ie-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.14.1\selenium-remote-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Ahmed_farghaly\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-os\4.14.1\selenium-os-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.14.1\selenium-safari-driver-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\seleniumhq\selenium\selenium-support\4.14.1\selenium-support-4.14.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.23.0\allure-cucumber7-jvm-2.23.0.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Ahmed_farghaly\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Ahmed_farghaly"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Ahmed_farghaly\IdeaProjects\VodafoneAssessment_Api Task"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ahmed_farghaly\AppData\Local\Temp\surefire178723422495915176\surefirebooter9842292304440296767.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="Ahmed_Farghaly"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Ahmed_farghaly\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AHMED_~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="C:\Users\Ahmed_farghaly\IdeaProjects\VodafoneAssessment_Api Task"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Microsoft System Center 2012 R2\Service Manager\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.4\plugins\maven\lib\apache-maven-3.9.4\bin;C:\Program Files\allure-2.23.1\bin;C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Silk\Silk Performer 21.0;C:\Program Files\Git\cmd;C:\Users\Ahmed_farghaly\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Users\Ahmed_farghaly\AppData\Local\Microsoft\WindowsApps;C:\Users\Ahmed_farghaly\AppData\Local\GitHubDesktop\bin;C:\Users\Ahmed_farghaly\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ahmed_farghaly\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="QueryParams" classname="Tests.MockAPI_Tests" time="1.705">
+    <system-out><![CDATA[{
+    "lectures": [
+        {
+            "id": 2,
+            "name": "Selenium Architecture",
+            "type": "PAID",
+            "mode": "VIDEO"
+        },
+        {
+            "id": 3,
+            "name": "Install Java",
+            "type": "PAID",
+            "mode": "VIDEO"
+        },
+        {
+            "id": 5,
+            "name": "Introduction to ISTQB",
+            "type": "PAID",
+            "mode": "VIDEO"
+        },
+        {
+            "id": 6,
+            "name": "What is testing",
+            "type": "PAID",
+            "mode": "VIDEO"
+        }
+    ],
+    "count": 4
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Test6_Headers" classname="Tests.MockAPI_Tests" time="1.129">
+    <system-out><![CDATA[{
+    "courses": [
+        {
+            "id": 1,
+            "author": "Hatem Hatamleh",
+            "name": "Selenium",
+            "type": "WEB",
+            "language": "JAVA"
+        },
+        {
+            "id": 2,
+            "author": "Hatem Hatamleh",
+            "name": "ISTQB Foundation Level",
+            "type": "MANUAL",
+            "language": "NONE"
+        }
+    ],
+    "count": 2
+}
+{
+    "courses": [
+        {
+            "id": 1,
+            "author": "Hatem Hatamleh",
+            "name": "Selenium",
+            "type": "WEB",
+            "language": "JAVA"
+        }
+    ],
+    "count": 1
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateTest1_equalTo_hasItem_hasItems_not" classname="Tests.MockAPI_Tests" time="0.93">
+    <system-out><![CDATA[[
+    {
+        "createdAt": "2023-10-26T17:48:29.821Z",
+        "name": "Miss Lindsay Bednar",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/591.jpg",
+        "Country": "Lesotho",
+        "id": "1"
+    },
+    {
+        "createdAt": "2023-10-26T17:20:15.764Z",
+        "name": "Warren Veum",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/831.jpg",
+        "Country": "Guinea",
+        "id": "2"
+    },
+    {
+        "createdAt": "2023-10-30T02:25:38.269Z",
+        "name": "Joshua Von",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/367.jpg",
+        "Country": "Philippines",
+        "id": "3"
+    },
+    {
+        "createdAt": "2023-10-29T13:34:43.532Z",
+        "name": "Cindy Dickens",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+        "Country": "Cook Islands",
+        "id": "4"
+    },
+    {
+        "createdAt": "2023-10-29T15:21:39.998Z",
+        "name": "Ora Runolfsdottir",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/695.jpg",
+        "Country": "Turks and Caicos Islands",
+        "id": "5"
+    },
+    {
+        "createdAt": "2023-10-30T06:01:26.282Z",
+        "name": "Ms. Amanda Satterfield III",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1125.jpg",
+        "Country": "Nicaragua",
+        "id": "6"
+    },
+    {
+        "createdAt": "2023-10-30T00:16:34.502Z",
+        "name": "Lori Walter",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg",
+        "Country": "Niger",
+        "id": "7"
+    },
+    {
+        "createdAt": "2023-10-29T11:46:32.994Z",
+        "name": "Virginia Schimmel",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/972.jpg",
+        "Country": "Congo",
+        "id": "8"
+    },
+    {
+        "createdAt": "2023-10-29T12:44:43.571Z",
+        "name": "Lela Herzog",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1082.jpg",
+        "Country": "Andorra",
+        "id": "9"
+    },
+    {
+        "createdAt": "2023-10-30T07:30:46.814Z",
+        "name": "Max Conroy",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg",
+        "Country": "Nepal",
+        "id": "10"
+    },
+    {
+        "createdAt": "2023-10-29T10:03:09.467Z",
+        "name": "Saul DuBuque",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/822.jpg",
+        "Country": "Norway",
+        "id": "11"
+    },
+    {
+        "createdAt": "2023-10-29T10:55:10.698Z",
+        "name": "Ms. Ryan Reichel",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "Country": "Djibouti",
+        "id": "12"
+    },
+    {
+        "createdAt": "2023-10-29T10:53:07.665Z",
+        "name": "Jeannie Collins",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "Country": "Morocco",
+        "id": "13"
+    },
+    {
+        "createdAt": "2023-10-29T09:48:40.394Z",
+        "name": "Marcia Ward",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1091.jpg",
+        "Country": "Somalia",
+        "id": "14"
+    },
+    {
+        "createdAt": "2023-10-29T12:15:49.539Z",
+        "name": "Vivian Denesik",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/678.jpg",
+        "Country": "Suriname",
+        "id": "15"
+    },
+    {
+        "createdAt": "2023-10-29T23:40:35.179Z",
+        "name": "Katie Dicki",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
+        "Country": "Azerbaijan",
+        "id": "16"
+    },
+    {
+        "createdAt": "2023-10-30T04:00:39.574Z",
+        "name": "Florence Schmeler",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/689.jpg",
+        "Country": "Netherlands",
+        "id": "17"
+    },
+    {
+        "createdAt": "2023-10-29T11:41:07.547Z",
+        "name": "Melissa White",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/194.jpg",
+        "Country": "Christmas Island",
+        "id": "18"
+    },
+    {
+        "createdAt": "2023-10-30T01:04:40.020Z",
+        "name": "Sarah Lubowitz",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/849.jpg",
+        "Country": "Heard Island and McDonald Islands",
+        "id": "19"
+    },
+    {
+        "createdAt": "2023-10-29T11:31:08.406Z",
+        "name": "Mr. Arnold West",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1214.jpg",
+        "Country": "Afghanistan",
+        "id": "20"
+    },
+    {
+        "createdAt": "2023-10-29T15:19:30.532Z",
+        "name": "Josh Cruickshank",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/912.jpg",
+        "Country": "French Polynesia",
+        "id": "21"
+    },
+    {
+        "createdAt": "2023-10-29T20:35:45.958Z",
+        "name": "Lucas Braun",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/994.jpg",
+        "Country": "Cuba",
+        "id": "22"
+    },
+    {
+        "createdAt": "2023-10-30T07:06:05.409Z",
+        "name": "Gary Mohr",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/276.jpg",
+        "Country": "Rwanda",
+        "id": "23"
+    },
+    {
+        "createdAt": "2023-10-29T11:56:35.430Z",
+        "name": "Dr. John Harvey",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "Country": "Virgin Islands, U.S.",
+        "id": "24"
+    },
+    {
+        "createdAt": "2023-10-29T10:51:51.720Z",
+        "name": "Celia Runolfsdottir",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1049.jpg",
+        "Country": "Bolivia",
+        "id": "25"
+    },
+    {
+        "createdAt": "2023-10-30T02:40:56.249Z",
+        "name": "Ms. Dan Barrows",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/356.jpg",
+        "Country": "Finland",
+        "id": "26"
+    },
+    {
+        "createdAt": "2023-10-30T06:30:40.530Z",
+        "name": "Miss Ginger Hauck",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/310.jpg",
+        "Country": "Iceland",
+        "id": "27"
+    },
+    {
+        "createdAt": "2023-10-29T21:41:23.375Z",
+        "name": "Randall Witting IV",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/227.jpg",
+        "Country": "Australia",
+        "id": "28"
+    },
+    {
+        "createdAt": "2023-10-30T04:39:37.857Z",
+        "name": "Jacquelyn Huels",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1127.jpg",
+        "Country": "Turkmenistan",
+        "id": "29"
+    },
+    {
+        "createdAt": "2023-10-29T22:35:52.329Z",
+        "name": "Angelina Carroll",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/717.jpg",
+        "Country": "Dominica",
+        "id": "30"
+    },
+    {
+        "createdAt": "2023-10-29T15:22:17.321Z",
+        "name": "Jamie Marquardt",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1049.jpg",
+        "Country": "Antarctica (the territory South of 60 deg S)",
+        "id": "31"
+    },
+    {
+        "createdAt": "2023-10-30T03:11:39.291Z",
+        "name": "Garrett Stiedemann",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/444.jpg",
+        "Country": "Pakistan",
+        "id": "32"
+    },
+    {
+        "createdAt": "2023-10-29T08:41:35.453Z",
+        "name": "Rodney Stoltenberg",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/880.jpg",
+        "Country": "El Salvador",
+        "id": "33"
+    },
+    {
+        "createdAt": "2023-10-29T10:33:46.874Z",
+        "name": "Patrick Gottlieb",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/453.jpg",
+        "Country": "Tanzania",
+        "id": "34"
+    },
+    {
+        "createdAt": "2023-10-29T17:41:00.363Z",
+        "name": "Kellie Kuhlman",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/227.jpg",
+        "Country": "Bahrain",
+        "id": "35"
+    },
+    {
+        "createdAt": "2023-10-29T10:58:04.347Z",
+        "name": "Terrance Haag PhD",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/841.jpg",
+        "Country": "Djibouti",
+        "id": "36"
+    },
+    {
+        "createdAt": "2023-10-29T16:17:33.102Z",
+        "name": "Herman Jones",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/554.jpg",
+        "Country": "Cocos (Keeling) Islands",
+        "id": "37"
+    },
+    {
+        "createdAt": "2023-10-30T03:34:38.611Z",
+        "name": "Terrance Shields",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1031.jpg",
+        "Country": "Syrian Arab Republic",
+        "id": "38"
+    },
+    {
+        "createdAt": "2023-10-29T10:30:30.800Z",
+        "name": "Billie Dare",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "Country": "Gambia",
+        "id": "39"
+    },
+    {
+        "createdAt": "2023-10-29T12:51:26.610Z",
+        "name": "Kristen Mosciski",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/533.jpg",
+        "Country": "Saudi Arabia",
+        "id": "40"
+    },
+    {
+        "createdAt": "2023-10-29T14:21:32.195Z",
+        "name": "Chad Bauch",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/658.jpg",
+        "Country": "Mozambique",
+        "id": "41"
+    },
+    {
+        "createdAt": "2023-10-30T07:23:17.681Z",
+        "name": "Ralph Stehr",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/602.jpg",
+        "Country": "Burundi",
+        "id": "42"
+    },
+    {
+        "createdAt": "2023-10-29T18:54:21.152Z",
+        "name": "Dr. Eleanor Casper",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/123.jpg",
+        "Country": "Saint Pierre and Miquelon",
+        "id": "43"
+    },
+    {
+        "createdAt": "2023-10-29T22:50:37.738Z",
+        "name": "Benjamin Sanford",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/674.jpg",
+        "Country": "India",
+        "id": "44"
+    },
+    {
+        "createdAt": "2023-10-29T12:18:37.214Z",
+        "name": "Dora Waelchi",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1149.jpg",
+        "Country": "Burundi",
+        "id": "45"
+    },
+    {
+        "createdAt": "2023-10-29T21:02:29.650Z",
+        "name": "Elmer Crist",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1118.jpg",
+        "Country": "Ireland",
+        "id": "46"
+    },
+    {
+        "createdAt": "2023-10-29T23:46:52.431Z",
+        "name": "Jerry Rodriguez",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/119.jpg",
+        "Country": "Greece",
+        "id": "47"
+    },
+    {
+        "createdAt": "2023-10-29T23:06:44.784Z",
+        "name": "Susan Yundt",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg",
+        "Country": "Niue",
+        "id": "48"
+    },
+    {
+        "createdAt": "2023-10-30T05:24:55.282Z",
+        "name": "Anne Buckridge",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "Country": "Portugal",
+        "id": "49"
+    },
+    {
+        "createdAt": "2023-10-29T16:26:59.791Z",
+        "name": "Rufus Corkery",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1023.jpg",
+        "Country": "Maldives",
+        "id": "50"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="test2_contains" classname="Tests.MockAPI_Tests" time="0.52">
+    <system-out><![CDATA[[
+    {
+        "createdAt": "2023-10-26T17:48:29.821Z",
+        "name": "Miss Lindsay Bednar",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/591.jpg",
+        "Country": "Lesotho",
+        "id": "1"
+    },
+    {
+        "createdAt": "2023-10-26T17:20:15.764Z",
+        "name": "Warren Veum",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/831.jpg",
+        "Country": "Guinea",
+        "id": "2"
+    },
+    {
+        "createdAt": "2023-10-30T02:25:38.269Z",
+        "name": "Joshua Von",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/367.jpg",
+        "Country": "Philippines",
+        "id": "3"
+    },
+    {
+        "createdAt": "2023-10-29T13:34:43.532Z",
+        "name": "Cindy Dickens",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+        "Country": "Cook Islands",
+        "id": "4"
+    },
+    {
+        "createdAt": "2023-10-29T15:21:39.998Z",
+        "name": "Ora Runolfsdottir",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/695.jpg",
+        "Country": "Turks and Caicos Islands",
+        "id": "5"
+    },
+    {
+        "createdAt": "2023-10-30T06:01:26.282Z",
+        "name": "Ms. Amanda Satterfield III",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1125.jpg",
+        "Country": "Nicaragua",
+        "id": "6"
+    },
+    {
+        "createdAt": "2023-10-30T00:16:34.502Z",
+        "name": "Lori Walter",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg",
+        "Country": "Niger",
+        "id": "7"
+    },
+    {
+        "createdAt": "2023-10-29T11:46:32.994Z",
+        "name": "Virginia Schimmel",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/972.jpg",
+        "Country": "Congo",
+        "id": "8"
+    },
+    {
+        "createdAt": "2023-10-29T12:44:43.571Z",
+        "name": "Lela Herzog",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1082.jpg",
+        "Country": "Andorra",
+        "id": "9"
+    },
+    {
+        "createdAt": "2023-10-30T07:30:46.814Z",
+        "name": "Max Conroy",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg",
+        "Country": "Nepal",
+        "id": "10"
+    },
+    {
+        "createdAt": "2023-10-29T10:03:09.467Z",
+        "name": "Saul DuBuque",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/822.jpg",
+        "Country": "Norway",
+        "id": "11"
+    },
+    {
+        "createdAt": "2023-10-29T10:55:10.698Z",
+        "name": "Ms. Ryan Reichel",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "Country": "Djibouti",
+        "id": "12"
+    },
+    {
+        "createdAt": "2023-10-29T10:53:07.665Z",
+        "name": "Jeannie Collins",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "Country": "Morocco",
+        "id": "13"
+    },
+    {
+        "createdAt": "2023-10-29T09:48:40.394Z",
+        "name": "Marcia Ward",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1091.jpg",
+        "Country": "Somalia",
+        "id": "14"
+    },
+    {
+        "createdAt": "2023-10-29T12:15:49.539Z",
+        "name": "Vivian Denesik",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/678.jpg",
+        "Country": "Suriname",
+        "id": "15"
+    },
+    {
+        "createdAt": "2023-10-29T23:40:35.179Z",
+        "name": "Katie Dicki",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
+        "Country": "Azerbaijan",
+        "id": "16"
+    },
+    {
+        "createdAt": "2023-10-30T04:00:39.574Z",
+        "name": "Florence Schmeler",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/689.jpg",
+        "Country": "Netherlands",
+        "id": "17"
+    },
+    {
+        "createdAt": "2023-10-29T11:41:07.547Z",
+        "name": "Melissa White",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/194.jpg",
+        "Country": "Christmas Island",
+        "id": "18"
+    },
+    {
+        "createdAt": "2023-10-30T01:04:40.020Z",
+        "name": "Sarah Lubowitz",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/849.jpg",
+        "Country": "Heard Island and McDonald Islands",
+        "id": "19"
+    },
+    {
+        "createdAt": "2023-10-29T11:31:08.406Z",
+        "name": "Mr. Arnold West",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1214.jpg",
+        "Country": "Afghanistan",
+        "id": "20"
+    },
+    {
+        "createdAt": "2023-10-29T15:19:30.532Z",
+        "name": "Josh Cruickshank",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/912.jpg",
+        "Country": "French Polynesia",
+        "id": "21"
+    },
+    {
+        "createdAt": "2023-10-29T20:35:45.958Z",
+        "name": "Lucas Braun",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/994.jpg",
+        "Country": "Cuba",
+        "id": "22"
+    },
+    {
+        "createdAt": "2023-10-30T07:06:05.409Z",
+        "name": "Gary Mohr",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/276.jpg",
+        "Country": "Rwanda",
+        "id": "23"
+    },
+    {
+        "createdAt": "2023-10-29T11:56:35.430Z",
+        "name": "Dr. John Harvey",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "Country": "Virgin Islands, U.S.",
+        "id": "24"
+    },
+    {
+        "createdAt": "2023-10-29T10:51:51.720Z",
+        "name": "Celia Runolfsdottir",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1049.jpg",
+        "Country": "Bolivia",
+        "id": "25"
+    },
+    {
+        "createdAt": "2023-10-30T02:40:56.249Z",
+        "name": "Ms. Dan Barrows",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/356.jpg",
+        "Country": "Finland",
+        "id": "26"
+    },
+    {
+        "createdAt": "2023-10-30T06:30:40.530Z",
+        "name": "Miss Ginger Hauck",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/310.jpg",
+        "Country": "Iceland",
+        "id": "27"
+    },
+    {
+        "createdAt": "2023-10-29T21:41:23.375Z",
+        "name": "Randall Witting IV",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/227.jpg",
+        "Country": "Australia",
+        "id": "28"
+    },
+    {
+        "createdAt": "2023-10-30T04:39:37.857Z",
+        "name": "Jacquelyn Huels",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1127.jpg",
+        "Country": "Turkmenistan",
+        "id": "29"
+    },
+    {
+        "createdAt": "2023-10-29T22:35:52.329Z",
+        "name": "Angelina Carroll",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/717.jpg",
+        "Country": "Dominica",
+        "id": "30"
+    },
+    {
+        "createdAt": "2023-10-29T15:22:17.321Z",
+        "name": "Jamie Marquardt",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1049.jpg",
+        "Country": "Antarctica (the territory South of 60 deg S)",
+        "id": "31"
+    },
+    {
+        "createdAt": "2023-10-30T03:11:39.291Z",
+        "name": "Garrett Stiedemann",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/444.jpg",
+        "Country": "Pakistan",
+        "id": "32"
+    },
+    {
+        "createdAt": "2023-10-29T08:41:35.453Z",
+        "name": "Rodney Stoltenberg",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/880.jpg",
+        "Country": "El Salvador",
+        "id": "33"
+    },
+    {
+        "createdAt": "2023-10-29T10:33:46.874Z",
+        "name": "Patrick Gottlieb",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/453.jpg",
+        "Country": "Tanzania",
+        "id": "34"
+    },
+    {
+        "createdAt": "2023-10-29T17:41:00.363Z",
+        "name": "Kellie Kuhlman",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/227.jpg",
+        "Country": "Bahrain",
+        "id": "35"
+    },
+    {
+        "createdAt": "2023-10-29T10:58:04.347Z",
+        "name": "Terrance Haag PhD",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/841.jpg",
+        "Country": "Djibouti",
+        "id": "36"
+    },
+    {
+        "createdAt": "2023-10-29T16:17:33.102Z",
+        "name": "Herman Jones",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/554.jpg",
+        "Country": "Cocos (Keeling) Islands",
+        "id": "37"
+    },
+    {
+        "createdAt": "2023-10-30T03:34:38.611Z",
+        "name": "Terrance Shields",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1031.jpg",
+        "Country": "Syrian Arab Republic",
+        "id": "38"
+    },
+    {
+        "createdAt": "2023-10-29T10:30:30.800Z",
+        "name": "Billie Dare",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "Country": "Gambia",
+        "id": "39"
+    },
+    {
+        "createdAt": "2023-10-29T12:51:26.610Z",
+        "name": "Kristen Mosciski",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/533.jpg",
+        "Country": "Saudi Arabia",
+        "id": "40"
+    },
+    {
+        "createdAt": "2023-10-29T14:21:32.195Z",
+        "name": "Chad Bauch",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/658.jpg",
+        "Country": "Mozambique",
+        "id": "41"
+    },
+    {
+        "createdAt": "2023-10-30T07:23:17.681Z",
+        "name": "Ralph Stehr",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/602.jpg",
+        "Country": "Burundi",
+        "id": "42"
+    },
+    {
+        "createdAt": "2023-10-29T18:54:21.152Z",
+        "name": "Dr. Eleanor Casper",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/123.jpg",
+        "Country": "Saint Pierre and Miquelon",
+        "id": "43"
+    },
+    {
+        "createdAt": "2023-10-29T22:50:37.738Z",
+        "name": "Benjamin Sanford",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/674.jpg",
+        "Country": "India",
+        "id": "44"
+    },
+    {
+        "createdAt": "2023-10-29T12:18:37.214Z",
+        "name": "Dora Waelchi",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1149.jpg",
+        "Country": "Burundi",
+        "id": "45"
+    },
+    {
+        "createdAt": "2023-10-29T21:02:29.650Z",
+        "name": "Elmer Crist",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1118.jpg",
+        "Country": "Ireland",
+        "id": "46"
+    },
+    {
+        "createdAt": "2023-10-29T23:46:52.431Z",
+        "name": "Jerry Rodriguez",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/119.jpg",
+        "Country": "Greece",
+        "id": "47"
+    },
+    {
+        "createdAt": "2023-10-29T23:06:44.784Z",
+        "name": "Susan Yundt",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg",
+        "Country": "Niue",
+        "id": "48"
+    },
+    {
+        "createdAt": "2023-10-30T05:24:55.282Z",
+        "name": "Anne Buckridge",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "Country": "Portugal",
+        "id": "49"
+    },
+    {
+        "createdAt": "2023-10-29T16:26:59.791Z",
+        "name": "Rufus Corkery",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1023.jpg",
+        "Country": "Maldives",
+        "id": "50"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="test3_empty_hasSize_everyItemStartsWith_hasKey" classname="Tests.MockAPI_Tests" time="0.604">
+    <system-out><![CDATA[[
+    {
+        "createdAt": "2023-10-26T17:48:29.821Z",
+        "name": "Miss Lindsay Bednar",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/591.jpg",
+        "Country": "Lesotho",
+        "id": "1"
+    },
+    {
+        "createdAt": "2023-10-26T17:20:15.764Z",
+        "name": "Warren Veum",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/831.jpg",
+        "Country": "Guinea",
+        "id": "2"
+    },
+    {
+        "createdAt": "2023-10-30T02:25:38.269Z",
+        "name": "Joshua Von",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/367.jpg",
+        "Country": "Philippines",
+        "id": "3"
+    },
+    {
+        "createdAt": "2023-10-29T13:34:43.532Z",
+        "name": "Cindy Dickens",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+        "Country": "Cook Islands",
+        "id": "4"
+    },
+    {
+        "createdAt": "2023-10-29T15:21:39.998Z",
+        "name": "Ora Runolfsdottir",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/695.jpg",
+        "Country": "Turks and Caicos Islands",
+        "id": "5"
+    },
+    {
+        "createdAt": "2023-10-30T06:01:26.282Z",
+        "name": "Ms. Amanda Satterfield III",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1125.jpg",
+        "Country": "Nicaragua",
+        "id": "6"
+    },
+    {
+        "createdAt": "2023-10-30T00:16:34.502Z",
+        "name": "Lori Walter",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg",
+        "Country": "Niger",
+        "id": "7"
+    },
+    {
+        "createdAt": "2023-10-29T11:46:32.994Z",
+        "name": "Virginia Schimmel",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/972.jpg",
+        "Country": "Congo",
+        "id": "8"
+    },
+    {
+        "createdAt": "2023-10-29T12:44:43.571Z",
+        "name": "Lela Herzog",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1082.jpg",
+        "Country": "Andorra",
+        "id": "9"
+    },
+    {
+        "createdAt": "2023-10-30T07:30:46.814Z",
+        "name": "Max Conroy",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg",
+        "Country": "Nepal",
+        "id": "10"
+    },
+    {
+        "createdAt": "2023-10-29T10:03:09.467Z",
+        "name": "Saul DuBuque",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/822.jpg",
+        "Country": "Norway",
+        "id": "11"
+    },
+    {
+        "createdAt": "2023-10-29T10:55:10.698Z",
+        "name": "Ms. Ryan Reichel",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "Country": "Djibouti",
+        "id": "12"
+    },
+    {
+        "createdAt": "2023-10-29T10:53:07.665Z",
+        "name": "Jeannie Collins",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "Country": "Morocco",
+        "id": "13"
+    },
+    {
+        "createdAt": "2023-10-29T09:48:40.394Z",
+        "name": "Marcia Ward",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1091.jpg",
+        "Country": "Somalia",
+        "id": "14"
+    },
+    {
+        "createdAt": "2023-10-29T12:15:49.539Z",
+        "name": "Vivian Denesik",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/678.jpg",
+        "Country": "Suriname",
+        "id": "15"
+    },
+    {
+        "createdAt": "2023-10-29T23:40:35.179Z",
+        "name": "Katie Dicki",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
+        "Country": "Azerbaijan",
+        "id": "16"
+    },
+    {
+        "createdAt": "2023-10-30T04:00:39.574Z",
+        "name": "Florence Schmeler",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/689.jpg",
+        "Country": "Netherlands",
+        "id": "17"
+    },
+    {
+        "createdAt": "2023-10-29T11:41:07.547Z",
+        "name": "Melissa White",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/194.jpg",
+        "Country": "Christmas Island",
+        "id": "18"
+    },
+    {
+        "createdAt": "2023-10-30T01:04:40.020Z",
+        "name": "Sarah Lubowitz",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/849.jpg",
+        "Country": "Heard Island and McDonald Islands",
+        "id": "19"
+    },
+    {
+        "createdAt": "2023-10-29T11:31:08.406Z",
+        "name": "Mr. Arnold West",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1214.jpg",
+        "Country": "Afghanistan",
+        "id": "20"
+    },
+    {
+        "createdAt": "2023-10-29T15:19:30.532Z",
+        "name": "Josh Cruickshank",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/912.jpg",
+        "Country": "French Polynesia",
+        "id": "21"
+    },
+    {
+        "createdAt": "2023-10-29T20:35:45.958Z",
+        "name": "Lucas Braun",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/994.jpg",
+        "Country": "Cuba",
+        "id": "22"
+    },
+    {
+        "createdAt": "2023-10-30T07:06:05.409Z",
+        "name": "Gary Mohr",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/276.jpg",
+        "Country": "Rwanda",
+        "id": "23"
+    },
+    {
+        "createdAt": "2023-10-29T11:56:35.430Z",
+        "name": "Dr. John Harvey",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "Country": "Virgin Islands, U.S.",
+        "id": "24"
+    },
+    {
+        "createdAt": "2023-10-29T10:51:51.720Z",
+        "name": "Celia Runolfsdottir",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1049.jpg",
+        "Country": "Bolivia",
+        "id": "25"
+    },
+    {
+        "createdAt": "2023-10-30T02:40:56.249Z",
+        "name": "Ms. Dan Barrows",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/356.jpg",
+        "Country": "Finland",
+        "id": "26"
+    },
+    {
+        "createdAt": "2023-10-30T06:30:40.530Z",
+        "name": "Miss Ginger Hauck",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/310.jpg",
+        "Country": "Iceland",
+        "id": "27"
+    },
+    {
+        "createdAt": "2023-10-29T21:41:23.375Z",
+        "name": "Randall Witting IV",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/227.jpg",
+        "Country": "Australia",
+        "id": "28"
+    },
+    {
+        "createdAt": "2023-10-30T04:39:37.857Z",
+        "name": "Jacquelyn Huels",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1127.jpg",
+        "Country": "Turkmenistan",
+        "id": "29"
+    },
+    {
+        "createdAt": "2023-10-29T22:35:52.329Z",
+        "name": "Angelina Carroll",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/717.jpg",
+        "Country": "Dominica",
+        "id": "30"
+    },
+    {
+        "createdAt": "2023-10-29T15:22:17.321Z",
+        "name": "Jamie Marquardt",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1049.jpg",
+        "Country": "Antarctica (the territory South of 60 deg S)",
+        "id": "31"
+    },
+    {
+        "createdAt": "2023-10-30T03:11:39.291Z",
+        "name": "Garrett Stiedemann",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/444.jpg",
+        "Country": "Pakistan",
+        "id": "32"
+    },
+    {
+        "createdAt": "2023-10-29T08:41:35.453Z",
+        "name": "Rodney Stoltenberg",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/880.jpg",
+        "Country": "El Salvador",
+        "id": "33"
+    },
+    {
+        "createdAt": "2023-10-29T10:33:46.874Z",
+        "name": "Patrick Gottlieb",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/453.jpg",
+        "Country": "Tanzania",
+        "id": "34"
+    },
+    {
+        "createdAt": "2023-10-29T17:41:00.363Z",
+        "name": "Kellie Kuhlman",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/227.jpg",
+        "Country": "Bahrain",
+        "id": "35"
+    },
+    {
+        "createdAt": "2023-10-29T10:58:04.347Z",
+        "name": "Terrance Haag PhD",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/841.jpg",
+        "Country": "Djibouti",
+        "id": "36"
+    },
+    {
+        "createdAt": "2023-10-29T16:17:33.102Z",
+        "name": "Herman Jones",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/554.jpg",
+        "Country": "Cocos (Keeling) Islands",
+        "id": "37"
+    },
+    {
+        "createdAt": "2023-10-30T03:34:38.611Z",
+        "name": "Terrance Shields",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1031.jpg",
+        "Country": "Syrian Arab Republic",
+        "id": "38"
+    },
+    {
+        "createdAt": "2023-10-29T10:30:30.800Z",
+        "name": "Billie Dare",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "Country": "Gambia",
+        "id": "39"
+    },
+    {
+        "createdAt": "2023-10-29T12:51:26.610Z",
+        "name": "Kristen Mosciski",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/533.jpg",
+        "Country": "Saudi Arabia",
+        "id": "40"
+    },
+    {
+        "createdAt": "2023-10-29T14:21:32.195Z",
+        "name": "Chad Bauch",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/658.jpg",
+        "Country": "Mozambique",
+        "id": "41"
+    },
+    {
+        "createdAt": "2023-10-30T07:23:17.681Z",
+        "name": "Ralph Stehr",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/602.jpg",
+        "Country": "Burundi",
+        "id": "42"
+    },
+    {
+        "createdAt": "2023-10-29T18:54:21.152Z",
+        "name": "Dr. Eleanor Casper",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/123.jpg",
+        "Country": "Saint Pierre and Miquelon",
+        "id": "43"
+    },
+    {
+        "createdAt": "2023-10-29T22:50:37.738Z",
+        "name": "Benjamin Sanford",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/674.jpg",
+        "Country": "India",
+        "id": "44"
+    },
+    {
+        "createdAt": "2023-10-29T12:18:37.214Z",
+        "name": "Dora Waelchi",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1149.jpg",
+        "Country": "Burundi",
+        "id": "45"
+    },
+    {
+        "createdAt": "2023-10-29T21:02:29.650Z",
+        "name": "Elmer Crist",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1118.jpg",
+        "Country": "Ireland",
+        "id": "46"
+    },
+    {
+        "createdAt": "2023-10-29T23:46:52.431Z",
+        "name": "Jerry Rodriguez",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/119.jpg",
+        "Country": "Greece",
+        "id": "47"
+    },
+    {
+        "createdAt": "2023-10-29T23:06:44.784Z",
+        "name": "Susan Yundt",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg",
+        "Country": "Niue",
+        "id": "48"
+    },
+    {
+        "createdAt": "2023-10-30T05:24:55.282Z",
+        "name": "Anne Buckridge",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "Country": "Portugal",
+        "id": "49"
+    },
+    {
+        "createdAt": "2023-10-29T16:26:59.791Z",
+        "name": "Rufus Corkery",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1023.jpg",
+        "Country": "Maldives",
+        "id": "50"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="test4_ExtractResponse" classname="Tests.MockAPI_Tests" time="1.136">
+    <system-out><![CDATA[Lesotho
+Lesotho
+]]></system-out>
+  </testcase>
+  <testcase name="test5_Logging" classname="Tests.MockAPI_Tests" time="0.604">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateAddListOfHeaders" classname="Tests.QACart_Tests" time="0.285">
+    <system-out><![CDATA[{
+    "courses": [
+        {
+            "id": 1,
+            "author": "Hatem Hatamleh",
+            "name": "Selenium",
+            "type": "WEB",
+            "language": "JAVA"
+        }
+    ],
+    "count": 1
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateHeader1" classname="Tests.QACart_Tests" time="0.283">
+    <system-out><![CDATA[{
+    "courses": [
+        {
+            "id": 1,
+            "author": "Hatem Hatamleh",
+            "name": "Selenium",
+            "type": "WEB",
+            "language": "JAVA"
+        },
+        {
+            "id": 2,
+            "author": "Hatem Hatamleh",
+            "name": "ISTQB Foundation Level",
+            "type": "MANUAL",
+            "language": "NONE"
+        }
+    ],
+    "count": 2
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ValidateQueryParams" classname="Tests.QACart_Tests" time="0.286">
+    <system-out><![CDATA[{
+    "lectures": [
+        {
+            "id": 2,
+            "name": "Selenium Architecture",
+            "type": "PAID",
+            "mode": "VIDEO"
+        },
+        {
+            "id": 3,
+            "name": "Install Java",
+            "type": "PAID",
+            "mode": "VIDEO"
+        },
+        {
+            "id": 5,
+            "name": "Introduction to ISTQB",
+            "type": "PAID",
+            "mode": "VIDEO"
+        },
+        {
+            "id": 6,
+            "name": "What is testing",
+            "type": "PAID",
+            "mode": "VIDEO"
+        }
+    ],
+    "count": 4
+}
+]]></system-out>
+  </testcase>
+  <testcase name="requestBody" classname="Tests.QACart_Tests" time="0.466">
+    <system-out><![CDATA[{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NDQxNDMxYjVjMmE2MDAxNGY5YTE3ZSIsImZpcnN0TmFtZSI6IkhhdGVtIiwiaWF0IjoxNzAwMDYwMzM4fQ.0nqgS2WxMONK0pBBz4P4U-gzbTmNP7g4NAUYUFMEz3Y",
+    "userID": "65441431b5c2a60014f9a17e",
+    "firstName": "Hatem"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="validateExtractTokenAuthorization" classname="Tests.QACart_Tests" time="0.98">
+    <system-out><![CDATA[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NDQxNDMxYjVjMmE2MDAxNGY5YTE3ZSIsImZpcnN0TmFtZSI6IkhhdGVtIiwiaWF0IjoxNzAwMDYwMzM4fQ.0nqgS2WxMONK0pBBz4P4U-gzbTmNP7g4NAUYUFMEz3Y
+{
+    "courses": [
+        {
+            "id": 1,
+            "author": {
+                "name": "Hatem Hatamleh",
+                "country": "Jordan",
+                "yearsOfExperience": 13
+            },
+            "name": "Selenium",
+            "type": "WEB",
+            "language": "JAVA"
+        },
+        {
+            "id": 2,
+            "author": {
+                "name": "Hatem Hatamleh",
+                "country": "Jordan",
+                "yearsOfExperience": 13
+            },
+            "name": "ISTQB Foundation Level",
+            "type": "MANUAL",
+            "language": "NONE"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+</testsuite>
